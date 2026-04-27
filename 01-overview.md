@@ -26,6 +26,8 @@ This is the "edge" layer - these repos may be semi-open for clients to use in th
 * **`sdk-android`** : The native Android Kotlin library.
 * **`sdk-demo-app`** : A bare-bones reference app to test and showcase the SDK integrations.
 
+  **NOTE:** We could merge `ios` and `android` using React Native & Expo. May be a better option, since Expo allows C++ object handling. 
+
 #### 2. The Shared Contracts (`shared-`)
 
 * **`shared-protocol`**: The single source of truth for your data models. This holds your Protobufs, JSON schemas, or OpenAPI specs that both the `sdk` and `core` repos will import to ensure the "Attestation Signature" shape never drifts.
