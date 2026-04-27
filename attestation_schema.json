@@ -1,0 +1,38 @@
+/*
+  Vusense Attestation Schema (Draft)
+  
+  This schema serves as an "envelope" that wraps the standard ProofMode metadata 
+  output with Vusense-specific business logic (User, Policy, Device, and Component IDs).
+  This dual-structure ensures our core-server can process policy logic (Block 1) while 
+  allowing standard ProofMode verification libraries to validate the raw capture data (Blocks 2, 3, 4).
+*/
+{
+  "version": "1.0.0",
+  "timestamp": "2026-04-28T11:32:12Z",
+  "vusense_context": {
+    "policy_id": "uuid-v4-here",
+    "user_id": "uuid-v4-here",
+    "device_id": "uuid-v4-here",
+    "component_id": "uuid-v4-here"
+  },
+  "media": {
+    "file_type": "video/mp4",
+    "sha256_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "storage_uri": "s3://vusense-raw/encrypted-blobs/video.mp4"
+  },
+  "proofmode_sensors": {
+    "Location.Latitude": 37.7749,
+    "Location.Longitude": -122.4194,
+    "Location.Provider": "gps",
+    "Network.IPv4": "192.168.1.5",
+    "Network.WIFI.BSSID": "00:14:22:01:23:45",
+    "Hardware.Model": "iPhone 15 Pro",
+    "Hardware.OS": "iOS 17.4",
+    "Sensor.Light": "450.0",
+    "Sensor.Acceleration.X": "0.02"
+  },
+  "signatures": {
+    "proofmode_pgp_signature": "-----BEGIN PGP SIGNATURE-----\n...",
+    "vusense_envelope_signature": "0xabc123..."
+  }
+}
