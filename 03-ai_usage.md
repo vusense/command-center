@@ -2,6 +2,8 @@
 
 This document serves as the top-level governance framework for all Artificial Intelligence (AI) and Large Language Model (LLM) agents operating within the Vusense organization. These rules apply universally across all repositories and development environments.
 
+---
+
 ## 1. Security & Data Privacy (Zero-Trust)
 
 As a Verification-as-a-Service platform, our security posture must be flawless. AI agents operate in a strict zero-trust environment.
