@@ -11,10 +11,14 @@
             "id": "9a67b4e385409839",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Policies & Procedures.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Policies & Procedures"
             }
           }
         ]
@@ -192,11 +196,12 @@
   },
   "active": "9a67b4e385409839",
   "lastOpenFiles": [
+    "Technical Stack/02-architecture.md",
+    "Policies & Procedures.md",
+    "Technical Stack/01-overview.md",
     "2026-05-13.md",
     "Untitled.base",
-    "Technical Stack/01-overview.md",
     "Technical Stack/03-ai_usage.md",
-    "Technical Stack/02-architecture.md",
     "Technical Stack/Agents/agent_core_server.md",
     "Technical Stack"
   ]
