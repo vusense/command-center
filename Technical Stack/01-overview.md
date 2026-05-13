@@ -31,7 +31,7 @@ This is the "edge" layer - these repos may be semi-open for clients to use in th
 #### 2. The Shared Contracts (`shared-`)
 
 * **`shared-protocol`**: The single source of truth for your data models. This holds your Protobufs, JSON schemas, or OpenAPI specs that both the `sdk` and `core` repos will import to ensure the "Attestation Signature" shape never drifts.
-  * *See [attestation_schema.json](./attestation_schema.json) for the drafted ProofMode-compatible payload structure.*
+  * *See [attestation_schema.json](attestation_schema.json) for the drafted ProofMode-compatible payload structure.*
 
 #### 3. The Backend Layer (`core-`)
 
