@@ -1,0 +1,13 @@
+# Ignore local workspace state (the most common cause of merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Ignore local cache and indexed data
+.obsidian/cache/
+.obsidian/indexed-db/
+
+# Optional: Ignore appearance if you want your cofounder 
+# to be able to use "Light Mode" while you use "Dark Mode"
+.obsidian/appearance.json
+
+# Keep everything else (plugins, themes, hotkeys) for a consistent UI!
