@@ -10,4 +10,7 @@
 # to be able to use "Light Mode" while you use "Dark Mode"
 .obsidian/appearance.json
 
+# MacOS bullshit. 
+.DS_Store
+
 # Keep everything else (plugins, themes, hotkeys) for a consistent UI!
