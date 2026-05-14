@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policies & Procedures.md",
+                "file": "Technical Stack/02-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Policies & Procedures"
+              "title": "02-architecture"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "9a67b4e385409839",
   "lastOpenFiles": [
-    "Technical Stack/02-architecture.md",
     "Policies & Procedures.md",
+    "Technical Stack/02-architecture.md",
     "Technical Stack/01-overview.md",
     "2026-05-13.md",
     "Untitled.base",
