@@ -2,16 +2,57 @@
 
 ## Overview
 
-This document outlines the decision-making process for the Vusense executive team.
+The complete Executive Decision Meta-Framework has been moved to the `Decision Tree/` directory for better organization and maintainability.
 
-We’re looking for a methodology to prevent “analysis paralysis”
-or “wrong tool for the job” problem that kills early-stage cofounder trust.
+## Quick Access
 
-Using 4X game (Civilization, Endless Legend, Old World, Stellaris) concepts,
-let's think in terms of turns, opportunity cost, map vision, and win conditions.
+**📁 Decision Framework Directory:** [`./Decision Tree/`](./Decision Tree/)
 
-This document provides a **decision meta-framework** that treats each decision choice as a “technology node”, unlocked based on context.
+**📖 Framework Documentation:** [`./Decision Tree/README.md`](./Decision Tree/README.md)
 
-## Step 1: Affirm Alignment & Reversibility
+**🚀 Quick Start:** [`./Decision Tree/01-executive-summary.md`](./Decision Tree/01-executive-summary.md)
 
-In our 4X analogy - this is the "tutorial pop-up" layer; ensures a quick risk assessment
+## What's Inside
+
+The `Decision Tree/` directory contains:
+
+- **11 comprehensive framework documents** covering all aspects of executive decision-making
+- **9 decision templates** for immediate use
+- **Mermaid flowcharts** for visual decision guidance
+- **Investor-ready documentation** for due diligence
+
+## Key Documents
+
+| Document                                                               | Purpose                           |
+| ---------------------------------------------------------------------- | --------------------------------- |
+| [README.md](./Decision Tree/README.md)                                 | Navigation and overview           |
+| [01-executive-summary.md](./Decision Tree/01-executive-summary.md)     | Executive summary and quick start |
+| [03-state-gathering.md](./Decision Tree/03-state-gathering.md)         | State assessment phase            |
+| [04-framework-selection.md](./Decision Tree/04-framework-selection.md) | Framework selection logic         |
+| [11-quick-reference.md](./Decision Tree/11-quick-reference.md)         | Cheat sheets and flowcharts       |
+
+## Templates
+
+All decision templates are located in [`./Decision Tree/templates/`](./Decision Tree/templates/):
+
+- Decision Context Card
+- STOP Protocol
+- ASOFF Worksheet
+- ICE Scorecard
+- RAPID Log
+- Weighted Decision Matrix
+- Alignment Resolution Log
+- Retrospection Template
+- Decision Register
+
+## Quick Start Guide
+
+1. **New Decision?** Start with [State Gathering](./Decision Tree/03-state-gathering.md)
+2. **Select Framework:** Use [Framework Selection](./Decision Tree/04-framework-selection.md)
+3. **Apply Framework:** Use the appropriate [template](./Decision Tree/templates/)
+4. **Document:** Record in [Decision Register](./Decision Tree/templates/decision-register.md)
+
+---
+
+**This file is maintained as a redirect to the organized framework documentation.**
+**For the complete framework, see [`./Decision Tree/README.md`](./Decision Tree/README.md)**
