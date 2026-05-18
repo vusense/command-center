@@ -6,37 +6,6 @@
 
 ---
 
-## Eisenhower Filter (Pre-Step)
-
-**Purpose:** Determine if this decision deserves time and attention before applying 5-Minute Rule.
-
-### Eisenhower Matrix
-
-| | Urgent | Not Urgent |
-|---|--------|------------|
-| **Important** | **DO** - Apply 5-Minute Rule immediately | **SCHEDULE** - Batch with similar decisions |
-| **Not Important** | **DELEGATE** - If possible, otherwise 5-Minute Rule | **DELETE** - Don't make the decision |
-
-### Assessment
-
-**Is this decision Urgent?** [YES/NO]
-**Is this decision Important?** [YES/NO]
-
-### Eisenhower Classification
-- [ ] **Urgent + Important:** Proceed to 5-Minute Rule
-- [ ] **Urgent + Not Important:** Delegate if possible, otherwise 5-Minute Rule
-- [ ] **Not Urgent + Important:** Schedule for later, batch with similar decisions
-- [ ] **Not Urgent + Not Important:** Delete/decline - no decision needed
-
-### Action Based on Classification
-**Selected Action:** [DO/DELEGATE/SCHEDULE/DELETE]
-**If DELETE:** Stop here - no decision needed
-**If DELEGATE:** Assign to [NAME], stop here
-**If SCHEDULE:** Add to backlog, stop here
-**If DO:** Proceed to 5-Minute Rule below
-
----
-
 ## Decision Context
 
 **Type:** Type I (Easily Reversible)

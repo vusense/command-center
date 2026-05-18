@@ -6,6 +6,28 @@ Before any framework application, executives must complete the **State Assessmen
 
 **Key Principle:** State before solution. Never apply a framework without first gathering context.
 
+## The Eisenhower Matrix
+
+The Eisenhower Matrix (also known as the Urgent-Important Matrix) is a time management tool that helps prioritize decisions based on urgency and importance. Before gathering state across other dimensions, determine if a decision even needs to be made now.
+
+### The Four Quadrants
+
+| | Urgent | Not Urgent |
+|---|--------|------------|
+| **Important** | **DO** - Critical, time-sensitive (Proceed to Assessment) | **SCHEDULE** - Strategic, plan for later |
+| **Not Important** | **DELEGATE** - Interrupts but low value | **DELETE** - Time-wasters, eliminate |
+
+**Definitions:**
+- **Urgent:** Requires immediate attention (time-sensitive)
+- **Important:** Contributes to long-term goals and values (strategic)
+
+### Application
+
+Only decisions falling into the **DO** quadrant (Urgent + Important) should proceed immediately to the Three-Dimensional Assessment.
+
+- **Urgent + Not Important:** Delegate if possible. If not, proceed to Assessment.
+- **Not Urgent + Important:** Schedule for later. Batch with similar decisions. Do not assess now.
+- **Not Urgent + Not Important:** Delete/decline. No decision needed.
 ## The Three-Dimensional Assessment
 
 ### Dimension A: Alignment Check
@@ -14,10 +36,10 @@ Alignment ensures cofounders agree on the problem statement before discussing so
 
 #### Alignment Questions
 
-| Question | Assessment | Threshold |
-|----------|------------|-----------|
-| Are both cofounders aligned on the problem statement? | Yes/No | Must be YES |
-| Do we share the same success metrics? | Yes/No | Must be YES |
+| Question                                              | Assessment | Threshold          |
+| ----------------------------------------------------- | ---------- | ------------------ |
+| Are both cofounders aligned on the problem statement? | Yes/No     | Must be YES        |
+| Do we share the same success metrics?                 | Yes/No     | Must be YES        |
 | Are there hidden assumptions or unstated constraints? | Documented | Must be documented |
 | Is this a values conflict or a tactical disagreement? | Identified | Must be identified |
 
@@ -29,16 +51,19 @@ Alignment ensures cofounders agree on the problem statement before discussing so
 #### Common Alignment Issues
 
 **Issue 1: Problem vs Solution Confusion**
+
 - Symptom: Cofounders arguing about different problems
 - Solution: Separate problem statement from solution discussion
 - Protocol: Alignment Resolution Protocol
 
 **Issue 2: Hidden Assumptions**
+
 - Symptom: Agreement on surface, disagreement on details
 - Solution: Explicitly document all assumptions
 - Protocol: ASOFF framework with assumption tracking
 
 **Issue 3: Values vs Tactical**
+
 - Symptom: Fundamental disagreement on what matters
 - Solution: Explicit values discussion before tactical discussion
 - Protocol: STOP Protocol for values-based decisions
@@ -49,13 +74,13 @@ Risk assessment quantifies the potential impact if the decision goes wrong.
 
 #### Risk Categories
 
-| Risk Category | Low (1) | Medium (2) | High (3) | Critical (4) |
-|---------------|---------|------------|----------|--------------|
-| **Financial impact** | <$10K | $10K-$100K | $100K-$1M | >$1M |
-| **Timeline impact** | <1 week | 1-4 weeks | 1-3 months | >3 months |
-| **Team morale impact** | Minimal | Noticeable | Significant | Severe |
-| **Customer impact** | None | Minor | Moderate | Major |
-| **Strategic impact** | Tactical | Operational | Strategic | Existential |
+| Risk Category                | Low (1)                               | Medium (2)  | High (3)    | Critical (4) |
+| ---------------------------- | ------------------------------------- | ----------- | ----------- | ------------ |
+| **Financial impact**   | <$10K | $10K-$100K | $100K-$1M | >$1M |             |             |              |
+| **Timeline impact**    | <1 week                               | 1-4 weeks   | 1-3 months  | >3 months    |
+| **Team morale impact** | Minimal                               | Noticeable  | Significant | Severe       |
+| **Customer impact**    | None                                  | Minor       | Moderate    | Major        |
+| **Strategic impact**   | Tactical                              | Operational | Strategic   | Existential  |
 
 #### Risk Score Calculation
 
@@ -66,6 +91,7 @@ Risk Score = Financial + Timeline + Team + Customer + Strategic
 ```
 
 **Risk Categories:**
+
 - **Score 5-8:** Low-risk decision
 - **Score 9-12:** Medium-risk decision
 - **Score 13-16:** High-risk decision
@@ -100,17 +126,18 @@ Reversibility assesses how easy it is to undo the decision if needed.
 
 #### Reversibility Factors
 
-| Reversibility Factor | Assessment |
-|---------------------|------------|
-| Can this decision be undone within 30 days? | Yes/No |
-| What is the cost of reversal? | $ estimate |
-| What is the time cost of reversal? | Duration |
-| Are there irreversible commitments (contracts, hires)? | List |
-| Is this a one-way door or two-way door decision? | Classification |
+| Reversibility Factor                                   | Assessment     |
+| ------------------------------------------------------ | -------------- |
+| Can this decision be undone within 30 days?            | Yes/No         |
+| What is the cost of reversal?                          | $ estimate     |
+| What is the time cost of reversal?                     | Duration       |
+| Are there irreversible commitments (contracts, hires)? | List           |
+| Is this a one-way door or two-way door decision?       | Classification |
 
 #### Reversibility Classification
 
 **Type I (Two-way door):**
+
 - Easily reversible
 - Low cost (<$10K)
 - Short time (<1 week)
@@ -118,6 +145,7 @@ Reversibility assesses how easy it is to undo the decision if needed.
 - **Example:** Changing a software library, adjusting pricing slightly
 
 **Type II (One-way door moderate):**
+
 - Reversible with significant cost
 - Medium cost ($10K-$100K)
 - Medium time (1-4 weeks)
@@ -125,6 +153,7 @@ Reversibility assesses how easy it is to undo the decision if needed.
 - **Example:** Hiring a contractor, signing a 3-month office lease
 
 **Type III (One-way door significant):**
+
 - Difficult to reverse
 - High cost ($100K-$1M)
 - Long time (1-3 months)
@@ -132,6 +161,7 @@ Reversibility assesses how easy it is to undo the decision if needed.
 - **Example:** Hiring a full-time employee, signing a 1-year contract
 
 **Type IV (One-way door critical):**
+
 - Nearly impossible to reverse
 - Very high cost (>$1M)
 - Very long time (>3 months)
@@ -141,14 +171,17 @@ Reversibility assesses how easy it is to undo the decision if needed.
 #### Reversibility Assessment Tips
 
 **Tip 1: Consider Soft Costs**
+
 - Reversal isn't just money - it's also reputation, team morale, customer trust
 - Document soft costs alongside financial costs
 
 **Tip 2: Consider Partial Reversal**
+
 - Sometimes full reversal isn't possible, but partial mitigation is
 - Document what partial reversal looks like
 
 **Tip 3: Consider Opportunity Cost**
+
 - Time spent reversing is time not spent on other priorities
 - Include opportunity cost in reversal assessment
 
@@ -196,6 +229,7 @@ Complete the Decision Context Card after state assessment. Use the template in [
 Each cofounder should complete the state assessment independently before comparing notes.
 
 **Why:**
+
 - Prevents anchoring bias
 - Reveals different perspectives
 - Identifies blind spots
@@ -206,6 +240,7 @@ Each cofounder should complete the state assessment independently before compari
 State assessment should take 15-30 minutes for most decisions.
 
 **Why:**
+
 - Prevents over-analysis
 - Forces prioritization
 - Maintains momentum
@@ -216,6 +251,7 @@ State assessment should take 15-30 minutes for most decisions.
 If cofounders disagree on state assessment, document the disagreement.
 
 **Why:**
+
 - Makes differences explicit
 - Enables later resolution
 - Provides audit trail
@@ -226,6 +262,7 @@ If cofounders disagree on state assessment, document the disagreement.
 Base assessments on objective data rather than gut feel.
 
 **Why:**
+
 - Reduces bias
 - Enables comparison
 - Supports justification
@@ -264,11 +301,13 @@ Base assessments on objective data rather than gut feel.
 **Decision:** Switch from AWS to GCP for a non-critical service
 
 **Alignment:**
+
 - Problem statement: YES (both agree current service is expensive)
 - Success metrics: YES (both agree cost reduction is goal)
 - Values vs tactical: TACTICAL
 
 **Risk Assessment:**
+
 - Financial: $5K migration cost = Low (1)
 - Timeline: 3 days = Low (1)
 - Team: Minimal impact = Low (1)
@@ -277,6 +316,7 @@ Base assessments on objective data rather than gut feel.
 - **Risk Score: 5 (Low Risk)**
 
 **Reversibility:**
+
 - Can undo in 30 days: YES
 - Reversal cost: $5K
 - Reversal time: 3 days
@@ -290,11 +330,13 @@ Base assessments on objective data rather than gut feel.
 **Decision:** Hire first marketing lead
 
 **Alignment:**
+
 - Problem statement: YES (both agree need marketing expertise)
 - Success metrics: PARTIAL (disagree on specific metrics)
 - Values vs tactical: BOTH
 
 **Risk Assessment:**
+
 - Financial: $120K salary = Medium (2)
 - Timeline: 2-3 months = Medium (2)
 - Team: Noticeable impact = Medium (2)
@@ -303,6 +345,7 @@ Base assessments on objective data rather than gut feel.
 - **Risk Score: 9 (Medium Risk)**
 
 **Reversibility:**
+
 - Can undo in 30 days: NO
 - Reversal cost: $30K (severance + recruiting)
 - Reversal time: 2-3 months
@@ -316,11 +359,13 @@ Base assessments on objective data rather than gut feel.
 **Decision: Raise Series A funding**
 
 **Alignment:**
+
 - Problem statement: YES (both agree need capital)
 - Success metrics: YES (both agree valuation and terms)
 - Values vs tactical: VALUES (control vs growth)
 
 **Risk Assessment:**
+
 - Financial: $5M raise = Critical (4)
 - Timeline: 4-6 months = High (3)
 - Team: Significant impact = High (3)
@@ -329,6 +374,7 @@ Base assessments on objective data rather than gut feel.
 - **Risk Score: 16 (High Risk)**
 
 **Reversibility:**
+
 - Can undo in 30 days: NO
 - Reversal cost: Impossible
 - Reversal time: Impossible
