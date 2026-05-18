@@ -6,28 +6,23 @@ Before any framework application, executives must complete the **State Assessmen
 
 **Key Principle:** State before solution. Never apply a framework without first gathering context.
 
-## The Eisenhower Matrix
+## Prerequisite: Problem Discovery
 
-The Eisenhower Matrix (also known as the Urgent-Important Matrix) is a time management tool that helps prioritize decisions based on urgency and importance. Before gathering state across other dimensions, determine if a decision even needs to be made now.
+The Decision Tree assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the State Gathering phase.
 
-### The Four Quadrants
+**If you do not have a formal Problem Statement:**
+1. Go to the **Problem Discovery** framework (see `../Problem Discovery/`)
+2. Apply the EB-25 prioritization methodology
+3. Complete Problem Identification to construct a solution-agnostic Problem Statement
+4. Draft and finalize an RFC for the proposed solution
+5. Return to the Decision Tree with the Problem Statement and RFC(s)
 
-| | Urgent | Not Urgent |
-|---|--------|------------|
-| **Important** | **DO** - Critical, time-sensitive (Proceed to Assessment) | **SCHEDULE** - Strategic, plan for later |
-| **Not Important** | **DELEGATE** - Interrupts but low value | **DELETE** - Time-wasters, eliminate |
+**Why This Prerequisite:**
+- Prevents solution-first thinking
+- Ensures executive time is spent on high-impact problems
+- Provides structured solution options (RFCs) for evaluation
+- Streamlines the decision-making process
 
-**Definitions:**
-- **Urgent:** Requires immediate attention (time-sensitive)
-- **Important:** Contributes to long-term goals and values (strategic)
-
-### Application
-
-Only decisions falling into the **DO** quadrant (Urgent + Important) should proceed immediately to the Three-Dimensional Assessment.
-
-- **Urgent + Not Important:** Delegate if possible. If not, proceed to Assessment.
-- **Not Urgent + Important:** Schedule for later. Batch with similar decisions. Do not assess now.
-- **Not Urgent + Not Important:** Delete/decline. No decision needed.
 ## The Three-Dimensional Assessment
 
 ### Dimension A: Alignment Check

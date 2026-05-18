@@ -26,54 +26,44 @@ This document provides quick reference materials for the decision meta-framework
 | Multiple Options            | ASOFF                 | Weighted Matrix      |
 | Binary Decision             | ICE                   | 5-Minute Rule        |
 
-## Eisenhower Matrix (Priority Filter)
+## Problem Discovery (Priority Filter)
 
-### What is the Eisenhower Matrix?
+### What is Problem Discovery?
 
-The Eisenhower Matrix (also known as the Urgent-Important Matrix) is a time management tool that helps prioritize tasks based on urgency and importance. It was popularized by Stephen Covey and named after President Dwight D. Eisenhower, who was known for his productivity.
+The **Problem Discovery Framework** precedes the Decision Tree and ensures we never make excellent decisions on the wrong problems. It uses the **EB-25 (Eisenhower-Buffett 25)** methodology to prioritize problems before they enter the decision-making process.
 
-**The Four Quadrants:**
+**The EB-25 Methodology:**
 
-|                         | Urgent                                        | Not Urgent                                     |
-| ----------------------- | --------------------------------------------- | ---------------------------------------------- |
-| **Important**     | **DO** - Critical, time-sensitive       | **SCHEDULE** - Strategic, plan for later |
-| **Not Important** | **DELEGATE** - Interrupts but low value | **DELETE** - Time-wasters, eliminate     |
-
-**Definitions:**
-
-- **Urgent:** Requires immediate attention (time-sensitive)
-- **Important:** Contributes to long-term goals and values (strategic)
+- **Eisenhower Matrix:** Filter problems by urgency and importance
+- **Buffett's 5/25 Rule:** Strictly limit to 25 active problems (Top 5 + Next 20)
 
 ### Integration with State Assessment
 
-Apply the Eisenhower Filter **before** conducting the Three-Dimensional Assessment for any decision:
+All decisions entering the Decision Tree should have a formal **Problem Statement** developed through the Problem Discovery framework:
 
 ```
-Eisenhower Filter → Full State Assessment (if DO)
+Problem Discovery (EB-25) → Problem Identification → RFC → Decision Tree State Assessment
 ```
 
 **Application:**
 
-| Eisenhower Classification  | Action               | Proceed to Assessment?            |
-| -------------------------- | -------------------- | --------------------------------- |
-| Urgent + Important         | DO immediately       | YES - Apply full State Assessment |
-| Urgent + Not Important     | Delegate if possible | MAYBE - Only if cannot delegate   |
-| Not Urgent + Important     | Schedule for later   | NO - Batch with similar decisions |
-| Not Urgent + Not Important | Delete/decline       | NO - No decision needed           |
+| Problem Discovery Status                               | Action                          | Proceed to Decision Tree? |
+| ---------------------------------------------------- | ------------------------------- | ------------------------- |
+| Problem in Top 5 + Problem Statement + Finalized RFC | Proceed to State Assessment     | YES                       |
+| Problem in Next 20                                   | Wait for promotion to Top 5     | NO                        |
+| No Problem Statement                                 | Go to Problem Discovery framework | NO                        |
+| No RFC                                               | Draft and finalize RFC          | NO                        |
 
 **Benefits:**
 
-- Prevents spending time on decisions that shouldn't be made
-- Ensures cofounder time is focused on high-impact decisions
-- Reduces decision fatigue by eliminating low-value decisions
-- Provides systematic approach to prioritization
+- Prevents solution-first thinking
+- Ensures executive time is spent on high-impact problems
+- Provides structured solution options (RFCs) for evaluation
+- Streamlines the decision-making process
 
-**Example:**
+**Reference:**
 
-- **Decision:** Switch project management tool
-- **Eisenhower Assessment:** Not Urgent + Important
-- **Action:** Schedule for quarterly review, batch with other tool decisions
-- **Result:** No State Assessment needed now, revisit later
+See `../Problem Discovery/` for the complete Problem Discovery Framework documentation.
 
 ## Time Investments
 

@@ -9,6 +9,8 @@ This document establishes the **Conflict Resolution Meta-Framework** for Vusense
 - **Applies chosen frameworks** with clear documentation
 - **Retrospects** on framework effectiveness for continuous improvement
 
+**Prerequisite:** This framework assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the Decision Tree. See `../Problem Discovery/` for details.
+
 This framework is designed for investor due diligence, cofounder trust preservation, and operational excellence in early-stage startup environments.
 
 ## Document Control
