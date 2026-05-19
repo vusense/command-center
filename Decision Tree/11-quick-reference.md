@@ -10,105 +10,98 @@ This document provides quick reference materials for the decision meta-framework
 
 ### Decision Type → Framework
 
-| Decision Context | Recommended Framework | Alternative |
-|------------------|----------------------|-------------|
-| Type I, Low Risk | 5-Minute Rule | ICE |
-| Type II, Low-Med Risk | ICE | ASOFF |
-| Type II, Med-High Risk | ASOFF | Weighted Matrix |
-| Type III, Full Alignment | RAPID | Weighted Matrix |
-| Type III, Partial Alignment | ASOFF | STOP |
-| Type III, No Alignment | Alignment Resolution | STOP |
-| Type IV, Any Risk | STOP | Weighted Matrix |
-| High Complexity | Weighted Matrix | ASOFF |
-| Time-Critical | RAPID | 5-Minute Rule |
-| Values-Based | STOP | Alignment Resolution |
-| Domain Expertise Clear | RAPID | ASOFF |
-| Multiple Options | ASOFF | Weighted Matrix |
-| Binary Decision | ICE | 5-Minute Rule |
+| Decision Context            | Recommended Framework | Alternative          |
+| --------------------------- | --------------------- | -------------------- |
+| Type I, Low Risk            | 5-Minute Rule         | ICE                  |
+| Type II, Low-Med Risk       | ICE                   | ASOFF                |
+| Type II, Med-High Risk      | ASOFF                 | Weighted Matrix      |
+| Type III, Full Alignment    | RAPID                 | Weighted Matrix      |
+| Type III, Partial Alignment | ASOFF                 | STOP                 |
+| Type III, No Alignment      | Alignment Resolution  | STOP                 |
+| Type IV, Any Risk           | STOP                  | Weighted Matrix      |
+| High Complexity             | Weighted Matrix       | ASOFF                |
+| Time-Critical               | RAPID                 | 5-Minute Rule        |
+| Values-Based                | STOP                  | Alignment Resolution |
+| Domain Expertise Clear      | RAPID                 | ASOFF                |
+| Multiple Options            | ASOFF                 | Weighted Matrix      |
+| Binary Decision             | ICE                   | 5-Minute Rule        |
 
-## Eisenhower Matrix (Priority Filter)
+## Problem Discovery (Priority Filter)
 
-### What is the Eisenhower Matrix?
+### What is Problem Discovery?
 
-The Eisenhower Matrix (also known as the Urgent-Important Matrix) is a time management tool that helps prioritize tasks based on urgency and importance. It was popularized by Stephen Covey and named after President Dwight D. Eisenhower, who was known for his productivity.
+The **Problem Discovery Framework** precedes the Decision Tree and ensures we never make excellent decisions on the wrong problems. It uses the **EB-25 (Eisenhower-Buffett 25)** methodology to prioritize problems before they enter the decision-making process.
 
-**The Four Quadrants:**
+**The EB-25 Methodology:**
 
-| | Urgent | Not Urgent |
-|---|--------|------------|
-| **Important** | **DO** - Critical, time-sensitive | **SCHEDULE** - Strategic, plan for later |
-| **Not Important** | **DELEGATE** - Interrupts but low value | **DELETE** - Time-wasters, eliminate |
+- **Eisenhower Matrix:** Filter problems by urgency and importance
+- **Buffett's 5/25 Rule:** Strictly limit to 25 active problems (Top 5 + Next 20)
 
-**Definitions:**
-- **Urgent:** Requires immediate attention (time-sensitive)
-- **Important:** Contributes to long-term goals and values (strategic)
+### Integration with State Assessment
 
-### Integration with 5-Minute Rule
-
-For Type I decisions (easily reversible, low risk), apply the Eisenhower Filter **before** the 5-Minute Rule:
+All decisions entering the Decision Tree should have a formal **Problem Statement** developed through the Problem Discovery framework:
 
 ```
-Type I Decision → Eisenhower Filter → 5-Minute Rule (if DO)
+Problem Discovery (EB-25) → Problem Identification → RFC → Decision Tree State Assessment
 ```
 
 **Application:**
 
-| Eisenhower Classification | Action | 5-Minute Rule? |
-|--------------------------|--------|----------------|
-| Urgent + Important | DO immediately | YES - Apply 5-Minute Rule |
-| Urgent + Not Important | Delegate if possible | MAYBE - Only if cannot delegate |
-| Not Urgent + Important | Schedule for later | NO - Batch with similar decisions |
-| Not Urgent + Not Important | Delete/decline | NO - No decision needed |
+| Problem Discovery Status                               | Action                          | Proceed to Decision Tree? |
+| ---------------------------------------------------- | ------------------------------- | ------------------------- |
+| Problem in Top 5 + Problem Statement + Finalized RFC | Proceed to State Assessment     | YES                       |
+| Problem in Next 20                                   | Wait for promotion to Top 5     | NO                        |
+| No Problem Statement                                 | Go to Problem Discovery framework | NO                        |
+| No RFC                                               | Draft and finalize RFC          | NO                        |
 
 **Benefits:**
-- Prevents spending time on decisions that shouldn't be made
-- Ensures cofounder time is focused on high-impact decisions
-- Reduces decision fatigue by eliminating low-value decisions
-- Provides systematic approach to prioritization
 
-**Example:**
-- **Decision:** Switch project management tool
-- **Eisenhower Assessment:** Not Urgent + Important
-- **Action:** Schedule for quarterly review, batch with other tool decisions
-- **Result:** No 5-Minute Rule needed now, revisit later
+- Prevents solution-first thinking
+- Ensures executive time is spent on high-impact problems
+- Provides structured solution options (RFCs) for evaluation
+- Streamlines the decision-making process
+
+**Reference:**
+
+See `../Problem Discovery/` for the complete Problem Discovery Framework documentation.
 
 ## Time Investments
 
-| Framework | Time Investment | Retrospection |
-|-----------|-----------------|---------------|
-| 5-Minute Rule | 5 minutes | None |
-| ICE | 1-2 hours | Optional |
-| RAPID | 2-4 hours | Optional |
-| ASOFF | 1-3 days | Recommended |
-| Weighted Matrix | 4-8 hours | Recommended |
-| STOP | 2-5 days | Mandatory |
-| Alignment Resolution | 1-3 days | Mandatory |
-| Emergency | <1 hour decision, 24-48h documentation | Mandatory |
+| Framework            | Time Investment                        | Retrospection |
+| -------------------- | -------------------------------------- | ------------- |
+| 5-Minute Rule        | 5 minutes                              | None          |
+| ICE                  | 1-2 hours                              | Optional      |
+| RAPID                | 2-4 hours                              | Optional      |
+| ASOFF                | 1-3 days                               | Recommended   |
+| Weighted Matrix      | 4-8 hours                              | Recommended   |
+| STOP                 | 2-5 days                               | Mandatory     |
+| Alignment Resolution | 1-3 days                               | Mandatory     |
+| Emergency            | <1 hour decision, 24-48h documentation | Mandatory     |
 
 ## Documentation Requirements
 
-| Framework | Documentation | Sign-off | Decision Register |
-|-----------|---------------|----------|-------------------|
-| 5-Minute Rule | Minimal | Required | Required |
-| ICE | Required | Required | Required |
-| RAPID | Required | Required | Required |
-| ASOFF | Required | Required | Required |
-| Weighted Matrix | Required | Required | Required |
-| STOP | Required | Required | Required |
-| Alignment Resolution | Required | Required | Required |
-| Emergency | Required | Required | Required |
+| Framework            | Documentation | Sign-off | Decision Register |
+| -------------------- | ------------- | -------- | ----------------- |
+| 5-Minute Rule        | Minimal       | Required | Required          |
+| ICE                  | Required      | Required | Required          |
+| RAPID                | Required      | Required | Required          |
+| ASOFF                | Required      | Required | Required          |
+| Weighted Matrix      | Required      | Required | Required          |
+| STOP                 | Required      | Required | Required          |
+| Alignment Resolution | Required      | Required | Required          |
+| Emergency            | Required      | Required | Required          |
 
 ## Risk Assessment Quick Reference
 
 ### Risk Categories
 
-| Risk Category | Low (1) | Medium (2) | High (3) | Critical (4) |
-|---------------|---------|------------|----------|--------------|
-| Financial impact | <$10K | $10K-$100K | $100K-$1M | >$1M |
-| Timeline impact | <1 week | 1-4 weeks | 1-3 months | >3 months |
-| Team morale impact | Minimal | Noticeable | Significant | Severe |
-| Customer impact | None | Minor | Moderate | Major |
-| Strategic impact | Tactical | Operational | Strategic | Existential |
+| Risk Category      | Low (1)                               | Medium (2)  | High (3)    | Critical (4) |
+| ------------------ | ------------------------------------- | ----------- | ----------- | ------------ |
+| Financial impact   | <$10K | $10K-$100K | $100K-$1M | >$1M |             |             |              |
+| Timeline impact    | <1 week                               | 1-4 weeks   | 1-3 months  | >3 months    |
+| Team morale impact | Minimal                               | Noticeable  | Significant | Severe       |
+| Customer impact    | None                                  | Minor       | Moderate    | Major        |
+| Strategic impact   | Tactical                              | Operational | Strategic   | Existential  |
 
 ### Risk Score Calculation
 
@@ -117,6 +110,7 @@ Risk Score = Financial + Timeline + Team + Customer + Strategic
 ```
 
 **Risk Categories:**
+
 - **Score 5-8:** Low-risk decision
 - **Score 9-12:** Medium-risk decision
 - **Score 13-16:** High-risk decision
@@ -126,12 +120,12 @@ Risk Score = Financial + Timeline + Team + Customer + Strategic
 
 ### Reversibility Types
 
-| Type | Description | Cost | Time |
-|------|-------------|------|------|
-| Type I | Easily reversible | <$10K | <1 week |
-| Type II | Moderately reversible | $10K-$100K | 1-4 weeks |
-| Type III | Difficult to reverse | $100K-$1M | 1-3 months |
-| Type IV | Nearly impossible to reverse | >$1M | >3 months |
+| Type     | Description                  | Cost       | Time       |
+| -------- | ---------------------------- | ---------- | ---------- |
+| Type I   | Easily reversible            | <$10K      | <1 week    |
+| Type II  | Moderately reversible        | $10K-$100K | 1-4 weeks  |
+| Type III | Difficult to reverse         | $100K-$1M  | 1-3 months |
+| Type IV  | Nearly impossible to reverse | >$1M       | >3 months  |
 
 ## Framework Selection Flowchart
 
@@ -219,17 +213,17 @@ graph TD
 
 ## Template Quick Links
 
-| Template | Purpose | Location |
-|----------|---------|----------|
-| Decision Context Card | State assessment | [`./templates/decision-context-card.md`](./templates/decision-context-card.md) |
-| STOP Protocol | STOP framework | [`./templates/stop-protocol.md`](./templates/stop-protocol.md) |
-| ASOFF Worksheet | ASOFF framework | [`./templates/asoff-worksheet.md`](./templates/asoff-worksheet.md) |
-| ICE Scorecard | ICE framework | [`./templates/ice-scorecard.md`](./templates/ice-scorecard.md) |
-| RAPID Log | RAPID framework | [`./templates/rapid-log.md`](./templates/rapid-log.md) |
-| Weighted Decision Matrix | Weighted matrix | [`./templates/weighted-decision-matrix.md`](./templates/weighted-decision-matrix.md) |
-| Alignment Resolution Log | Alignment protocol | [`./templates/alignment-resolution-log.md`](./templates/alignment-resolution-log.md) |
-| Retrospection Template | Decision retrospection | [`./templates/retrospection-template.md`](./templates/retrospection-template.md) |
-| Decision Register | Master decision record | [`./templates/decision-register.md`](./templates/decision-register.md) |
+| Template                 | Purpose                | Location                                                                            |
+| ------------------------ | ---------------------- | ----------------------------------------------------------------------------------- |
+| Decision Context Card    | State assessment       | [`./templates/decision-context-card.md`](./templates/decision-context-card.md)       |
+| STOP Protocol            | STOP framework         | [`./templates/stop-protocol.md`](./templates/stop-protocol.md)                       |
+| ASOFF Worksheet          | ASOFF framework        | [`./templates/asoff-worksheet.md`](./templates/asoff-worksheet.md)                   |
+| ICE Scorecard            | ICE framework          | [`./templates/ice-scorecard.md`](./templates/ice-scorecard.md)                       |
+| RAPID Log                | RAPID framework        | [`./templates/rapid-log.md`](./templates/rapid-log.md)                               |
+| Weighted Decision Matrix | Weighted matrix        | [`./templates/weighted-decision-matrix.md`](./templates/weighted-decision-matrix.md) |
+| Alignment Resolution Log | Alignment protocol     | [`./templates/alignment-resolution-log.md`](./templates/alignment-resolution-log.md) |
+| Retrospection Template   | Decision retrospection | [`./templates/retrospection-template.md`](./templates/retrospection-template.md)     |
+| Decision Register        | Master decision record | [`./templates/decision-register.md`](./templates/decision-register.md)               |
 
 ## Escalation Quick Reference
 
@@ -361,6 +355,7 @@ graph TD
 **Context:** Hiring first senior engineer
 
 **State Assessment:**
+
 - Alignment: Full
 - Risk: Medium (Score 11)
 - Reversibility: Type II
@@ -376,6 +371,7 @@ graph TD
 **Context:** Switching from AWS to GCP for non-critical service
 
 **State Assessment:**
+
 - Alignment: Full
 - Risk: Low (Score 6)
 - Reversibility: Type I
@@ -391,6 +387,7 @@ graph TD
 **Context:** Pivoting from B2C to B2B focus
 
 **State Assessment:**
+
 - Alignment: Full
 - Risk: Critical (Score 18)
 - Reversibility: Type IV
@@ -406,6 +403,7 @@ graph TD
 **Context:** $50K investment in new marketing channel
 
 **State Assessment:**
+
 - Alignment: Partial
 - Risk: Medium (Score 10)
 - Reversibility: Type II
@@ -421,6 +419,7 @@ graph TD
 **Context:** Signing 1-year office lease
 
 **State Assessment:**
+
 - Alignment: Full
 - Risk: High (Score 14)
 - Reversibility: Type III
@@ -434,15 +433,18 @@ graph TD
 ## Contact Information
 
 **Framework Questions:**
+
 - [Cofounder A Email]
 - [Cofounder B Email]
 
 **Escalation Contacts:**
+
 - Advisory Board: [Contact]
 - Board of Directors: [Contact]
 - External Mediator: [Contact]
 
 **Document Maintenance:**
+
 - Owner: Executive Team
 - Review Cycle: Quarterly
 - Next Review: [DATE]

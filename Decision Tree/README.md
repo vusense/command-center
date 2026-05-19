@@ -2,46 +2,48 @@
 
 ## Overview
 
-This directory contains the complete **Conflict Resolution Meta-Framework** for Vusense executive decisions. This framework provides a structured, auditable process for critical executive decisions that:
+This directory contains the complete **Conflict Resolution / Decision Meta-Framework** for Vusense executive decisions. This framework provides a structured, auditable process for critical executive decisions that:
 
 - **Gathers state** through alignment, risk, and reversibility assessment
 - **Selects appropriate frameworks** (STOP, ASOFF, ICE, etc.) based on decision context
 - **Applies chosen frameworks** with clear documentation
 - **Retrospects** on framework effectiveness for continuous improvement
 
+**Prerequisite:** This framework assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the Decision Tree. See `../Problem Discovery/` for details.
+
 ## Document Structure
 
 ### Core Framework Documents
 
-| File | Description |
-|------|-------------|
-| [01-executive-summary.md](./01-executive-summary.md) | Executive summary, document control, and quick start |
-| [02-framework-philosophy.md](./02-framework-philosophy.md) | Core principles and the "meta" approach |
-| [03-state-gathering.md](./03-state-gathering.md) | Alignment, risk, and reversibility assessment phase |
-| [04-framework-selection.md](./04-framework-selection.md) | Framework selection logic and decision tree |
-| [05-framework-application.md](./05-framework-application.md) | Framework application rules and guidelines |
-| [06-special-protocols.md](./06-special-protocols.md) | Alignment resolution, escalation, and emergency protocols |
-| [07-retrospection.md](./07-retrospection.md) | Decision retrospection and continuous improvement |
-| [08-documentation-due-diligence.md](./08-documentation-due-diligence.md) | Documentation standards and investor due diligence |
-| [09-training-onboarding.md](./09-training-onboarding.md) | Cofounder and board training requirements |
-| [10-governance.md](./10-governance.md) | Framework modification, suspension, and dispute resolution |
-| [11-quick-reference.md](./11-quick-reference.md) | Quick reference guide, flowcharts, and glossary |
+| File                                                                  | Description                                                |
+| --------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [01-executive-summary.md](./01-executive-summary.md)                     | Executive summary, document control, and quick start       |
+| [02-framework-philosophy.md](./02-framework-philosophy.md)               | Core principles and the "meta" approach                    |
+| [03-state-gathering.md](./03-state-gathering.md)                         | Alignment, risk, and reversibility assessment phase        |
+| [04-framework-selection.md](./04-framework-selection.md)                 | Framework selection logic and decision tree                |
+| [05-framework-application.md](./05-framework-application.md)             | Framework application rules and guidelines                 |
+| [06-special-protocols.md](./06-special-protocols.md)                     | Alignment resolution, escalation, and emergency protocols  |
+| [07-retrospection.md](./07-retrospection.md)                             | Decision retrospection and continuous improvement          |
+| [08-documentation-due-diligence.md](./08-documentation-due-diligence.md) | Documentation standards and investor due diligence         |
+| [09-training-onboarding.md](./09-training-onboarding.md)                 | Cofounder and board training requirements                  |
+| [10-governance.md](./10-governance.md)                                   | Framework modification, suspension, and dispute resolution |
+| [11-quick-reference.md](./11-quick-reference.md)                         | Quick reference guide, flowcharts, and glossary            |
 
 ### Templates
 
 All decision templates are located in the [`./templates/`](./templates/) directory:
 
-| Template | Purpose |
-|----------|---------|
-| [decision-context-card.md](./templates/decision-context-card.md) | Initial state assessment |
-| [stop-protocol.md](./templates/stop-protocol.md) | STOP framework application |
-| [asoff-worksheet.md](./templates/asoff-worksheet.md) | ASOFF framework application |
-| [ice-scorecard.md](./templates/ice-scorecard.md) | ICE framework application |
-| [rapid-log.md](./templates/rapid-log.md) | RAPID framework application |
-| [weighted-decision-matrix.md](./templates/weighted-decision-matrix.md) | Weighted matrix application |
+| Template                                                            | Purpose                       |
+| ------------------------------------------------------------------- | ----------------------------- |
+| [decision-context-card.md](./templates/decision-context-card.md)       | Initial state assessment      |
+| [stop-protocol.md](./templates/stop-protocol.md)                       | STOP framework application    |
+| [asoff-worksheet.md](./templates/asoff-worksheet.md)                   | ASOFF framework application   |
+| [ice-scorecard.md](./templates/ice-scorecard.md)                       | ICE framework application     |
+| [rapid-log.md](./templates/rapid-log.md)                               | RAPID framework application   |
+| [weighted-decision-matrix.md](./templates/weighted-decision-matrix.md) | Weighted matrix application   |
 | [alignment-resolution-log.md](./templates/alignment-resolution-log.md) | Alignment resolution protocol |
-| [retrospection-template.md](./templates/retrospection-template.md) | Decision retrospection |
-| [decision-register.md](./templates/decision-register.md) | Master decision register |
+| [retrospection-template.md](./templates/retrospection-template.md)     | Decision retrospection        |
+| [decision-register.md](./templates/decision-register.md)               | Master decision register      |
 
 ## Quick Start
 
@@ -53,9 +55,9 @@ All decision templates are located in the [`./templates/`](./templates/) directo
 
 ## Document Control
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-05-18 | Executive Team | Initial framework establishment |
+| Version | Date       | Author         | Changes                         |
+| ------- | ---------- | -------------- | ------------------------------- |
+| 1.0     | 2026-05-18 | Executive Team | Initial framework establishment |
 
 **Approval Required:** Board of Directors
 **Review Cycle:** Quarterly

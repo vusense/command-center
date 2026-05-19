@@ -196,15 +196,10 @@ graph TD
 **Time Investment:** 5 minutes
 
 **Process:**
-1. **Eisenhower Filter (Pre-Step):** Assess urgency and importance
-   - Urgent + Important: Proceed to 5-Minute Rule
-   - Urgent + Not Important: Delegate if possible
-   - Not Urgent + Important: Schedule for later
-   - Not Urgent + Not Important: Delete/decline
-2. Each cofounder states their position (2 minutes each)
-3. Quick alignment check (1 minute)
-4. If aligned: proceed immediately
-5. If not aligned: escalate to ICE framework
+1. Each cofounder states their position (2 minutes each)
+2. Quick alignment check (1 minute)
+3. If aligned: proceed immediately
+4. If not aligned: escalate to ICE framework
 
 **Documentation:** Minimal (see [`./templates/5-minute-log.md`](./templates/5-minute-log.md))
 

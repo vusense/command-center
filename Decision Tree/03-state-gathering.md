@@ -6,6 +6,23 @@ Before any framework application, executives must complete the **State Assessmen
 
 **Key Principle:** State before solution. Never apply a framework without first gathering context.
 
+## Prerequisite: Problem Discovery
+
+The Decision Tree assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the State Gathering phase.
+
+**If you do not have a formal Problem Statement:**
+1. Go to the **Problem Discovery** framework (see `../Problem Discovery/`)
+2. Apply the EB-25 prioritization methodology
+3. Complete Problem Identification to construct a solution-agnostic Problem Statement
+4. Draft and finalize an RFC for the proposed solution
+5. Return to the Decision Tree with the Problem Statement and RFC(s)
+
+**Why This Prerequisite:**
+- Prevents solution-first thinking
+- Ensures executive time is spent on high-impact problems
+- Provides structured solution options (RFCs) for evaluation
+- Streamlines the decision-making process
+
 ## The Three-Dimensional Assessment
 
 ### Dimension A: Alignment Check
