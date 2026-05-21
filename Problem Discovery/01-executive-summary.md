@@ -109,7 +109,9 @@ The Problem Statement and finalized RFC(s) enter the Decision Tree's State Gathe
 - **Problem Identification:** [04-problem-identification.md](./04-problem-identification.md) - Root cause analysis
 - **RFC Methodology:** [05-rfc-methodology.md](./05-rfc-methodology.md) - Solution proposal process
 - **Handoff:** [06-handoff-to-decision.md](./06-handoff-to-decision.md) - Transition to Decision Tree
+- **Emergency / expedited:** [07-emergency-and-expedited.md](./07-emergency-and-expedited.md)
 - **Templates:** [`./templates/`](./templates/) - Problem statement and RFC templates
+- **Operating model:** [../OPERATING-MODEL.md](../OPERATING-MODEL.md) - Adoption, rhythm, artifact storage
 
 ## Contact and Support
 

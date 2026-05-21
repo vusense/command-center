@@ -217,6 +217,8 @@ Use Alignment Resolution Protocol when:
 
 ## Emergency Decision Protocol
 
+**Problem Discovery (Gate 1):** Minimum capture, retroactive Problem Statement, and RFC/options deadlines are in [Problem Discovery/07-emergency-and-expedited.md](../Problem%20Discovery/07-emergency-and-expedited.md).
+
 ### When to Use
 
 **Conditions:**

@@ -30,9 +30,16 @@ The author updates the RFC based on feedback. This may involve adding mitigation
 Once the comment period ends (typically 3-5 days) and the author has addressed the major critiques, the RFC is marked as "Finalized".
 *Note: Finalized does not mean "Approved". It means it is ready for an executive decision.*
 
-## Multiple RFCs
+## Multiple RFCs vs multiple options in one RFC
 
-For highly complex problems, multiple competing RFCs may be drafted by different team members for the same Problem Statement.
+| Pattern | Description |
+| ------- | ------------- |
+| **One RFC, ≥3 options** | Preferred default. Document options A / B / C (and optional “do nothing”) in §5 *Alternatives Considered* or §2 *Detailed Design*. Satisfies ASOFF without multiple files. |
+| **Multiple RFCs** | Use when sponsors disagree on architecture enough that a single doc would be misleading. Each RFC should reference the same Problem Statement ID. |
+
+**Handoff minimum:** ≥3 evaluable options across the package (see [06-handoff-to-decision.md](./06-handoff-to-decision.md#options-rule)).
+
+**Emergency / expedited:** A single RFC may be finalized quickly if it lists ≥3 options with trade-offs; full multi-day review may follow after the decision (see [07-emergency-and-expedited.md](./07-emergency-and-expedited.md)).
 
 *Complete the RFC using the template in `./templates/rfc.md`.*
 

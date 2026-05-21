@@ -233,7 +233,13 @@ FOCUSED EXECUTION (Only Top 5 active)
 
 **Description:** Moving directly from Problem Statement to Decision Tree without RFC.
 
-**Solution:** RFC is mandatory for all problems entering the Decision Tree. No exceptions.
+**Solution:** RFC is mandatory for all problems entering the Decision Tree. Exceptions only under [07-emergency-and-expedited.md](./07-emergency-and-expedited.md) with retroactive completion.
+
+### Anti-Pattern 6: Single-Option RFC
+
+**Description:** One RFC that proposes only one solution with no documented alternatives.
+
+**Solution:** Include ≥3 options in one RFC, or attach multiple RFCs, before handoff (see [06-handoff-to-decision.md](./06-handoff-to-decision.md#options-rule)).
 
 ### Anti-Pattern 5: Avoid List Violation
 

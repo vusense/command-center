@@ -53,6 +53,7 @@ Problem Discovery (EB-25) → Problem Identification → RFC → Decision Tree S
 | Problem in Next 20                                   | Wait for promotion to Top 5     | NO                        |
 | No Problem Statement                                 | Go to Problem Discovery framework | NO                        |
 | No RFC                                               | Draft and finalize RFC          | NO                        |
+| RFC with fewer than 3 options                        | Add options per handoff rule    | NO                        |
 
 **Benefits:**
 
@@ -60,6 +61,10 @@ Problem Discovery (EB-25) → Problem Identification → RFC → Decision Tree S
 - Ensures executive time is spent on high-impact problems
 - Provides structured solution options (RFCs) for evaluation
 - Streamlines the decision-making process
+
+**Options rule:** ≥3 options in one finalized RFC or across multiple RFCs. See `../Problem Discovery/06-handoff-to-decision.md`.
+
+**Emergency:** See `../Problem Discovery/07-emergency-and-expedited.md` and Emergency Protocol in [06-special-protocols.md](./06-special-protocols.md).
 
 **Reference:**
 

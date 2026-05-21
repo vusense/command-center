@@ -23,6 +23,18 @@ The Decision Tree assumes that a **Problem Statement** has already been develope
 - Provides structured solution options (RFCs) for evaluation
 - Streamlines the decision-making process
 
+## Decision priority (gate 0)
+
+Before the three-dimensional assessment, confirm this item belongs in the Decision Tree at all.
+
+| Question | Assessment | Action if No |
+| -------- | ---------- | ------------ |
+| Does this require executive / cofounder sign-off? | Yes/No | Delegate to engineering or ops; do not open Decision Register |
+| Is there a finalized Problem Discovery handoff (or approved emergency/expedited path)? | Yes/No | Complete [Problem Discovery](../Problem%20Discovery/) or [07-emergency-and-expedited.md](../Problem%20Discovery/07-emergency-and-expedited.md) |
+| Is the decision time-bound in a way that precludes standard frameworks? | Yes/No | If yes and &lt;4h harm, use [Emergency Protocol](./06-special-protocols.md) after minimal capture |
+
+**Output:** Proceed only when executive sign-off is required and Problem Statement (and options via RFC) exist.
+
 ## The Three-Dimensional Assessment
 
 ### Dimension A: Alignment Check

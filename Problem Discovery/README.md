@@ -23,6 +23,7 @@ The Problem Discovery framework ensures we never make excellent decisions on the
 | [04-problem-identification.md](./04-problem-identification.md) | Root cause analysis and problem statement construction |
 | [05-rfc-methodology.md](./05-rfc-methodology.md) | Request for Comments solution proposal process |
 | [06-handoff-to-decision.md](./06-handoff-to-decision.md) | Transition to Decision Tree framework |
+| [07-emergency-and-expedited.md](./07-emergency-and-expedited.md) | Emergency and expedited Gate 1 paths |
 
 ### Templates
 
@@ -39,7 +40,8 @@ All problem discovery templates are located in the [`./templates/`](./templates/
 1. **New Problem?** Start with [03-problem-discovery.md](./03-problem-discovery.md) to apply EB-25 filtering
 2. **Top 5 Problem?** Use [04-problem-identification.md](./04-problem-identification.md) to construct Problem Statement
 3. **Solution Proposal?** Use [05-rfc-methodology.md](./05-rfc-methodology.md) to draft and review RFC
-4. **Ready for Decision?** Use [06-handoff-to-decision.md](./06-handoff-to-decision.md) to enter Decision Tree
+4. **Ready for Decision?** Use [06-handoff-to-decision.md](./06-handoff-to-decision.md) to enter Decision Tree  
+5. **Urgent?** See [07-emergency-and-expedited.md](./07-emergency-and-expedited.md) before bypassing Gate 1
 
 ## Document Control
 
@@ -53,6 +55,8 @@ All problem discovery templates are located in the [`./templates/`](./templates/
 
 ## Navigation
 
+- **Repository hub:** [../README.md](../README.md)
+- **Operating model:** [../OPERATING-MODEL.md](../OPERATING-MODEL.md)
 - **For first-time readers:** Start with [01-executive-summary.md](./01-executive-summary.md)
 - **For problem discovery:** Jump to [03-problem-discovery.md](./03-problem-discovery.md)
 - **For problem identification:** See [04-problem-identification.md](./04-problem-identification.md)

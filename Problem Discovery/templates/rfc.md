@@ -18,8 +18,21 @@
 ## 4. Trade-offs & Risks
 [What are the known downsides to this approach? What could go wrong? No solution is perfect—be explicit about the costs of this choice.]
 
-## 5. Alternatives Considered
-[Briefly describe other solutions that were considered and why they were discarded in favor of this one.]
+## 5. Alternatives Considered (minimum 3 for handoff)
+
+Document **at least three** distinct options (including status quo / do-nothing if material). Label clearly: **Option A**, **Option B**, **Option C**.
+
+### Option A — [Short name]
+[Description, pros/cons summary]
+
+### Option B — [Short name]
+[Description, pros/cons summary]
+
+### Option C — [Short name]
+[Description, pros/cons summary]
+
+### Option D — Do nothing (if applicable)
+[Impact of not deciding]
 
 ---
 ## Reviewer Comments

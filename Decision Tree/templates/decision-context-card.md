@@ -5,6 +5,17 @@
 **Initiator:** [NAME]
 **Decision Title:** [BRIEF TITLE]
 
+**Problem Statement ID:** [ID]
+**RFC reference(s):** [IDs]
+
+---
+
+## Decision priority
+
+- **Executive sign-off required:** [YES/NO]
+- **Problem Discovery handoff complete:** [YES/NO/EXPEDITED/EMERGENCY]
+- **Notes:** [FREE TEXT]
+
 ---
 
 ## Alignment Status

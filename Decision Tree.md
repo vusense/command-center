@@ -1,8 +1,10 @@
 # Vusense Command Center - Decision Tree
 
+> **Full repository index:** [README.md](./README.md) | **Operating model:** [OPERATING-MODEL.md](./OPERATING-MODEL.md)
+
 ## Overview
 
-The complete Executive Decision Meta-Framework has been moved to the `Decision Tree/` directory for better organization and maintainability.
+The complete Executive Decision Meta-Framework lives in the `Decision Tree/` directory. **Gate 1** ([Problem Discovery](./Problem%20Discovery/)) must precede **Gate 2** except under [emergency/expedited rules](./Problem%20Discovery/07-emergency-and-expedited.md).
 
 ## Quick Access
 

@@ -4,6 +4,9 @@
 **Date:** [DATE]
 **Decision Title:** [TITLE]
 
+**Problem Statement ID:** [LINK to decisions/problems/ or Problem Discovery artifact]
+**RFC reference(s):** [e.g. rfc-2026-05-21-sdk-platform-a — list all finalized RFCs]
+
 ---
 
 ## A - ASSESS
@@ -64,7 +67,11 @@
 
 ## O - OPTIONS
 
+*Copy options from finalized RFC(s). Each option should map to one RFC section or one RFC file. Minimum three options required.*
+
 ### Option 1: [DESCRIPTION]
+
+**Source:** [RFC-ID § section / Option A]
 
 **Pros:**
 - [PRO 1]
