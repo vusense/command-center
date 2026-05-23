@@ -11,7 +11,7 @@ Before any framework application, executives must complete the **State Assessmen
 The Decision Tree assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the State Gathering phase.
 
 **If you do not have a formal Problem Statement:**
-1. Go to the **Problem Discovery** framework (see `../Problem Discovery/`)
+1. Go to the **Problem Discovery** framework (see `../01-problem-discovery/`)
 2. Apply the EB-25 prioritization methodology
 3. Complete Problem Identification to construct a solution-agnostic Problem Statement
 4. Draft and finalize an RFC for the proposed solution
@@ -30,7 +30,7 @@ Before the three-dimensional assessment, confirm this item belongs in the Decisi
 | Question | Assessment | Action if No |
 | -------- | ---------- | ------------ |
 | Does this require executive / cofounder sign-off? | Yes/No | Delegate to engineering or ops; do not open Decision Register |
-| Is there a finalized Problem Discovery handoff (or approved emergency/expedited path)? | Yes/No | Complete [Problem Discovery](../Problem%20Discovery/) or [07-emergency-and-expedited.md](../Problem%20Discovery/07-emergency-and-expedited.md) |
+| Is there a finalized Problem Discovery handoff (or approved emergency/expedited path)? | Yes/No | Complete [Problem Discovery](../01-problem-discovery/) or [07-emergency-and-expedited.md](../01-problem-discovery/07-emergency-and-expedited.md) |
 | Is the decision time-bound in a way that precludes standard frameworks? | Yes/No | If yes and &lt;4h harm, use [Emergency Protocol](./06-special-protocols.md) after minimal capture |
 
 **Output:** Proceed only when executive sign-off is required and Problem Statement (and options via RFC) exist.

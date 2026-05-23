@@ -4,7 +4,7 @@
 **Date:** [DATE]
 **Decision Title:** [TITLE]
 
-**Problem Statement ID:** [LINK to decisions/problems/ or Problem Discovery artifact]
+**Problem Statement ID:** [LINK to your Problem Statement artifact or Gate 1 handoff package]
 **RFC reference(s):** [e.g. rfc-2026-05-21-sdk-platform-a — list all finalized RFCs]
 
 ---

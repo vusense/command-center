@@ -4,7 +4,7 @@
 **Date:** [DATE]
 **Author:** [NAME]
 **EB-25 Rank:** [1-5 (Top 5) or 6-25 (Next 20)]
-**Decision class (technical):** [T1 Implementation / T2 Architecture / T3 Platform / T4 Trust-Security / N/A — see Technical Stack/00-decision-integration.md]
+
 
 **Related Technical Stack docs:** [links]
 **Repos impacted:** [e.g. sdk-ios, core-server]

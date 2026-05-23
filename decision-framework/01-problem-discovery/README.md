@@ -55,8 +55,8 @@ All problem discovery templates are located in the [`./templates/`](./templates/
 
 ## Navigation
 
-- **Repository hub:** [../README.md](../README.md)
-- **Operating model:** [../OPERATING-MODEL.md](../OPERATING-MODEL.md)
+- **Repository hub:** [../../README.md](../../README.md)
+- **Operating model:** [../../README.md#operating-model](../../README.md#operating-model)
 - **For first-time readers:** Start with [01-executive-summary.md](./01-executive-summary.md)
 - **For problem discovery:** Jump to [03-problem-discovery.md](./03-problem-discovery.md)
 - **For problem identification:** See [04-problem-identification.md](./04-problem-identification.md)

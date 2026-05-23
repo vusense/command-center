@@ -9,9 +9,9 @@ This directory contains the complete **Conflict Resolution / Decision Meta-Frame
 - **Applies chosen frameworks** with clear documentation
 - **Retrospects** on framework effectiveness for continuous improvement
 
-**Prerequisite:** This framework assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the Decision Tree. See `../Problem Discovery/` for details.
+**Prerequisite:** This framework assumes that a **Problem Statement** has already been developed through the **Problem Discovery Framework**. Problems should be discovered, prioritized through the EB-25 methodology, and crystallized into formal Problem Statements before entering the Decision Tree. See `../01-problem-discovery/` for details.
 
-**Repository hub:** [../README.md](../README.md) | **Operating model:** [../OPERATING-MODEL.md](../OPERATING-MODEL.md) | **Exemplar:** [../examples/exemplar-sdk-platform.md](../examples/exemplar-sdk-platform.md)
+**Repository hub:** [../../README.md](../../README.md) | **Operating model:** [../../README.md#operating-model](../../README.md#operating-model)
 
 ## Document Structure
 

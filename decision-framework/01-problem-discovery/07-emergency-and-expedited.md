@@ -12,7 +12,7 @@ The standard Problem Discovery flow (EB-25 → identification → RFC → handof
 | ---- | ------------- | ------ | ------ | ---------------- |
 | **Standard** | None | Full | Full | N/A |
 | **Expedited** | Important + urgent; decision needed within ~48h | Compressed (below) | Per state assessment; Emergency only if &lt;4h | Problem Statement within 24h; RFC finalized within 48h |
-| **Emergency** | Material harm if delayed &gt;4h | Minimal capture + retroactive full Gate 1 | [Emergency Protocol](../Decision%20Tree/06-special-protocols.md) | Problem Statement within 24h; RFC or post-hoc options doc within 48h |
+| **Emergency** | Material harm if delayed &gt;4h | Minimal capture + retroactive full Gate 1 | [Emergency Protocol](../02-decision-tree/06-special-protocols.md) | Problem Statement within 24h; RFC or post-hoc options doc within 48h |
 
 ## Expedited Problem Discovery
 
@@ -83,9 +83,9 @@ Add row to Decision Register marking `EMERGENCY` and linking retroactive Problem
 ## Navigation
 
 - **Previous:** [06-handoff-to-decision.md](./06-handoff-to-decision.md)
-- **Operating model:** [../OPERATING-MODEL.md](../OPERATING-MODEL.md)
-- **Decision Tree emergency:** [../Decision Tree/06-special-protocols.md](../Decision%20Tree/06-special-protocols.md)
+- **Operating Model:** [../../README.md#operating-model](../../README.md#operating-model)
+- **Decision Tree emergency:** [../02-decision-tree/06-special-protocols.md](../02-decision-tree/06-special-protocols.md)
 
 ---
 
-**Next:** Return to [README.md](./README.md) or [03-problem-discovery.md](./03-problem-discovery.md)
+**Next:** Return to [Gate 1 README](./README.md), [repository hub](../../README.md), or [03-problem-discovery.md](./03-problem-discovery.md)

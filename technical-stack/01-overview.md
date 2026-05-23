@@ -1,6 +1,6 @@
 # Overview
 
-> **Executive decisions** affecting this stack use the Command Center two-gate process. See [00-decision-integration.md](./00-decision-integration.md) and [examples/exemplar-sdk-platform.md](../examples/exemplar-sdk-platform.md).
+> **Executive decisions** affecting this stack use the Command Center two-gate process. See [00-decision-integration.md](./00-decision-integration.md).
 
 In our post-truth world, consider an image or video you watch. How do you know if it's AI-generated? How can you trust the very source of this image? The aim of Vusense is to provide a verifiable traceback to that very source by using a multi-layer signature record of the image itself, identifiers, and sensors.
 

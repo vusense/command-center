@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The [Technical Stack](./) documents **what Vusense is building**. The [Problem Discovery](../Problem%20Discovery/) and [Decision Tree](../Decision%20Tree/) frameworks document **how executives decide**. This file defines when technical work must enter the two-gate process and how artifacts link together.
+The [technical stack](./) documents **what Vusense is building**. [Gate 1 — Problem Discovery](../decision-framework/01-problem-discovery/) and [Gate 2 — Decision Tree](../decision-framework/02-decision-tree/) document **how executives decide**. This file defines when technical work must enter the two-gate process and how artifacts link together.
 
 ## Does this decision require the Command Center?
 
@@ -72,17 +72,12 @@ On Decision Register entry:
 
 Security incident, production outage, or active exploit:
 
-1. Follow [Problem Discovery/07-emergency-and-expedited.md](../Problem%20Discovery/07-emergency-and-expedited.md)
+1. Follow [07-emergency-and-expedited.md](../decision-framework/01-problem-discovery/07-emergency-and-expedited.md)
 2. Decision Tree Emergency Protocol
 3. Update Technical Stack docs **after** decision register entry (within 1 week)
 
-## Example
-
-Full walkthrough: [examples/exemplar-sdk-platform.md](../examples/exemplar-sdk-platform.md) (native split SDKs vs unified Expo).
-
 ## Navigation
 
-- [README.md](../README.md)
-- [OPERATING-MODEL.md](../OPERATING-MODEL.md)
-- [Problem Discovery](../Problem%20Discovery/)
-- [Decision Tree](../Decision%20Tree/)
+- [README.md](../README.md) — repository hub and [operating model](../README.md#operating-model)
+- [Gate 1 — Problem Discovery](../decision-framework/01-problem-discovery/)
+- [Gate 2 — Decision Tree](../decision-framework/02-decision-tree/)

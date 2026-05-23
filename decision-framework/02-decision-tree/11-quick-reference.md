@@ -62,13 +62,13 @@ Problem Discovery (EB-25) → Problem Identification → RFC → Decision Tree S
 - Provides structured solution options (RFCs) for evaluation
 - Streamlines the decision-making process
 
-**Options rule:** ≥3 options in one finalized RFC or across multiple RFCs. See `../Problem Discovery/06-handoff-to-decision.md`.
+**Options rule:** ≥3 options in one finalized RFC or across multiple RFCs. See `../01-problem-discovery/06-handoff-to-decision.md`.
 
-**Emergency:** See `../Problem Discovery/07-emergency-and-expedited.md` and Emergency Protocol in [06-special-protocols.md](./06-special-protocols.md).
+**Emergency:** See `../01-problem-discovery/07-emergency-and-expedited.md` and Emergency Protocol in [06-special-protocols.md](./06-special-protocols.md).
 
 **Reference:**
 
-See `../Problem Discovery/` for the complete Problem Discovery Framework documentation.
+See `../01-problem-discovery/` for the complete Problem Discovery Framework documentation.
 
 ## Time Investments
 
