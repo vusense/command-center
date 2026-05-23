@@ -1,0 +1,33 @@
+# ICE Scorecard - Decision Record
+
+**Decision ID:** {{ decision_id }}
+**Date:** {{ date }}
+**Decision Title:** {{ title }}
+
+---
+
+## Scorecard
+
+| Option | Impact | Confidence | Ease | ICE Score |
+|--------|--------|------------|------|-----------|
+{% for row in rows %}
+| {{ row.option }} | {{ row.impact }} | {{ row.confidence }} | {{ row.ease }} | {{ row.ice_score }} |
+{% endfor %}
+
+## Decision
+
+### Selected Option
+{{ selected_option }}
+
+### Rationale
+{{ rationale }}
+
+### Implementation Notes
+{{ implementation_notes }}
+
+---
+
+## Sign-off
+
+**Cofounder A:** {{ signoff_a }}
+**Cofounder B:** {{ signoff_b }}

@@ -13,4 +13,11 @@
 # MacOS bullshit. 
 .DS_Store
 
+# Decision app — live data and secrets
+decision-app/data/*
+!decision-app/data/.gitkeep
+decision-app/.env
+decision-app/credentials.yaml
+decision-app/.venv/
+
 # Keep everything else (plugins, themes, hotkeys) for a consistent UI!

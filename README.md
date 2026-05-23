@@ -102,9 +102,10 @@ Review quarterly (spreadsheet, board deck, or separate ops notes):
 - Retrospection completion rate for mandatory frameworks
 - Average days from RFC finalize to Decision Register entry
 
-### Tooling roadmap (Phase 2 — not in scope now)
+### Tooling (Phase 2)
 
-- Obsidian Dataview or similar over your external working copies
+- **[Decision app](./decision-app/README.md)** — Dockerized Streamlit UI for Gate 1 + Gate 2 (working copies in `decision-app/data/`, not in this repo)
+- Obsidian Dataview or similar over exported Markdown from the app
 - PR-based RFC review for engineering-heavy RFCs
 - Optional integration: RFC structure aligns with ADR-style records
 

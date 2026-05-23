@@ -1,0 +1,71 @@
+# Decision Context Card
+
+**Decision ID:** {{ decision_id }}
+**Date:** {{ date }}
+**Initiator:** {{ completed_by }}
+**Decision Title:** {{ title }}
+
+**Problem Statement ID:** {{ problem_id }}
+**RFC reference(s):** {{ rfc_ids }}
+
+---
+
+## Decision priority
+
+- **Executive sign-off required:** {{ exec_signoff }}
+- **Problem Discovery handoff complete:** {{ handoff_complete }}
+- **Notes:** {{ handoff_notes }}
+
+---
+
+## Alignment Status
+
+### Problem Statement Alignment
+- **Status:** {{ problem_alignment }}
+- **Notes:** {{ alignment_notes }}
+
+### Success Metric Alignment
+- **Status:** {{ metric_alignment }}
+
+### Values vs Tactical
+- **Classification:** {{ values_vs_tactical }}
+
+---
+
+## Risk Assessment
+
+| Risk Category | Score (1-4) | Rationale |
+|---------------|-------------|-----------|
+{% for domain, score in risk_scores.items() %}
+| {{ domain | title }} impact | {{ score.value }} | {{ score.rationale }} |
+{% endfor %}
+
+### Total Risk Score
+**Score:** {{ risk_total }}/20
+**Category:** {{ risk_category }}
+
+### Risk Mitigation Considerations
+{{ risk_mitigation }}
+
+---
+
+## Reversibility Assessment
+
+- **Can undo within 30 days:** {{ undo_30_days }}
+- **Reversal cost:** ${{ reversal_cost }}
+- **Reversal time (weeks):** {{ reversal_time_weeks }}
+- **Irreversible commitments:** {{ irreversible_commitments }}
+- **Type:** {{ rev_type }}
+
+---
+
+## Framework Selection
+
+- **Selected framework:** {{ framework }}
+- **Rationale:** {{ framework_rationale }}
+- **Alternatives considered:** {{ alternatives }}
+
+---
+
+**Completed By:** {{ completed_by }}
+**Date:** {{ date }}

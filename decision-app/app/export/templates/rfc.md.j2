@@ -1,0 +1,35 @@
+# Request for Comments (RFC)
+
+**RFC ID:** {{ rfc_id }}
+**Target Problem ID:** {{ problem_id }}
+**Date:** {{ date }}
+**Author:** {{ author }}
+**Status:** {{ status }}
+
+## 1. Proposed Solution
+
+{{ proposed_solution }}
+
+## 2. Detailed Design / Methodology
+
+{{ detailed_design }}
+
+## 3. Cost & Resource Requirements
+
+{{ cost_resources }}
+
+## 4. Trade-offs & Risks
+
+{{ tradeoffs_risks }}
+
+## 5. Alternatives Considered
+
+{% for opt in options %}
+### {{ opt.label }} — {{ opt.name }}
+{{ opt.description }}
+
+{% endfor %}
+
+## Reviewer Comments
+
+{{ reviewer_comments }}
